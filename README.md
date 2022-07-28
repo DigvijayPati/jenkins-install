@@ -1,4 +1,4 @@
-# jenkins-install
+# jenkins-installon on linux
 ## Create a docker image
 ```
 docker login
@@ -15,3 +15,6 @@ docker-compose up -d
 docker exec <container> cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
+# jenkins-installon on windows 
+
+Follow this [Installation guide](https://www.youtube.com/watch?v=XuMrEDA8cAI)
