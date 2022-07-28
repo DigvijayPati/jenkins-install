@@ -1,6 +1,8 @@
 version: '3.7'
 services:
   jenkins-master:
+    environment:
+      JAVA_OPTS: "-Xms1g -Xmx1g"
     container_name: devsecops
     image: digupats/devsecops
     user: jenkins
