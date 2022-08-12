@@ -1,4 +1,4 @@
-# jenkins-installon on linux
+# jenkins-install on linux
 ## Create a docker image
 ```
 docker login
